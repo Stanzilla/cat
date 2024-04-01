@@ -1,6 +1,6 @@
 {
   "name": "cat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple cat action for GitHub Actions",
   "main": "dist/index.js",
   "scripts": {
@@ -10,17 +10,17 @@
   "keywords": [
     "cat"
   ],
-  "author": "pCYSl5EDgo",
+  "author": "Stanzilla",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.10.0",
-    "@actions/exec": "^1.0.1",
-    "@actions/io": "^1.0.1",
-    "os": "^0.1.1"
+    "@actions/core": "^1.10.1",
+    "@actions/exec": "^1.1.1",
+    "@actions/io": "^1.1.3",
+    "os": "^0.1.2"
   },
   "devDependencies": {
-    "@types/node": "^12.12.3",
-    "@zeit/ncc": "^0.20.5",
-    "typescript": "^3.5.1"
+    "@types/node": "^20.12.2",
+    "@zeit/ncc": "^0.22.3",
+    "typescript": "^5.4.3"
   }
 }

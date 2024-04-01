@@ -1,6 +1,6 @@
 name: 'Cat for GitHub Actions'
 description: 'cat command like action'
-author: 'pCYSl5EDgo'
+author: 'Stanzilla'
 inputs:
   path:
     description: 'A file to read'
@@ -12,7 +12,7 @@ outputs:
   text:
     description: 'A file content read from path'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: 'archive'

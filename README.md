@@ -5,6 +5,7 @@ This GitHub Action reads text from path and stores outputs.text with the content
 ## Usage
 
 ### Pre-requisites
+
 Create a workflow `.yml` file in your repositories `.github/workflows` directory. An [example workflow](#example-workflow) is available below. For more information, reference the GitHub Help Documentation for [Creating a workflow file](https://help.github.com/en/articles/configuring-a-workflow#creating-a-workflow-file).
 
 ### Inputs
@@ -41,4 +42,5 @@ jobs:
 ```
 
 ## License
+
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
