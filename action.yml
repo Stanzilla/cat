@@ -7,7 +7,7 @@ inputs:
     required: true
   trim:
     description: 'Remove whitespace from both ends of a string when true. Default is false.'
-    default: false
+    default: "false"
 outputs:
   text:
     description: 'A file content read from path'
